@@ -105,3 +105,415 @@ table .input-text {
 .form-bottom-part a:hover {
   text-decoration: underline;
 } 
+
+/* ------------------Estilos del header terminados------------------- */
+
+main {
+  min-height: 640px;
+}
+
+.gradient {
+  min-width: 980px;
+  height: 618px;
+  background: linear-gradient(white, #D3D8E8);
+}
+
+.left-part-container {
+  width: 580px;
+  height: 297px;
+  float: left;
+}
+
+.left-part {
+  width: 565px;
+  margin-right: 15px;
+}
+
+.title-left-part {
+  color: #0e385f;
+  font-size: 20px;
+  font-weight: bold;
+  line-height: 29px;
+  margin-top: 40px;
+  width: 450px;
+  word-spacing: -1px;
+}
+
+.right-part-container {
+  width: 400px;
+  height: 618px;
+  float: right;
+}
+
+.form-titles-container {
+  padding: 20px 0;
+}
+
+.form-principal-title {
+  font-size: 36px;
+  color: #333;
+  font-weight: 600;
+  margin-bottom: 5px;
+}
+
+.form-title {
+  font-size: 19px;
+  color: #1d2129;
+  font-weight: normal;
+}
+
+.registrarse-container {
+  height: 500px;
+}
+
+.registrarse {
+  height: 470px;
+}
+
+.form-register-container {
+  height: 409px;
+}
+
+.form-register-container form {
+  height: 100%;
+}
+
+.form-register-content {
+  height: 100%;
+}
+
+.nombre-completo {
+  height: 49px;
+}
+
+.cel-correo {
+  height: 49px;
+}
+
+.new-password {
+  height: 49px;
+}
+
+.nombre-container {
+  height: 39px;
+  position: relative;
+  margin-right: 8px;
+  float: left;
+  margin-bottom: 10px;
+}
+
+.apellido-container {
+  height: 39px;
+  position: relative;
+  float: right;
+  margin-bottom: 10px;
+}
+
+.cel-container, .pass-container {
+  height: 39px;
+  position: relative;
+  float: left;
+  margin-bottom: 10px;
+}
+
+.nombre, .apellido {
+  width: 194px;
+  height: inherit;
+  background: white;
+  border-radius: 5px;
+  display: inline-block;
+  position: relative;
+}
+
+.cel, .pass {
+  width: 399px;
+  height: inherit;
+  background: white;
+  border-radius: 5px;
+  display: inline-block;
+  position: relative;
+}
+
+.name-placeholder, .apellido-placeholder, .cel-placeholder, .pass-placeholder {
+ height: inherit;
+}
+
+.placeholder {
+  font-size: 18px;
+  padding: 8px 10px;
+  box-sizing: border-box;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: block;
+  color: #999;
+  cursor: text;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+
+.name-placeholder input, .apellido-placeholder input {
+  width: 172px;
+  font-size: 18px;
+  padding: 8px 10px;
+  margin: 0;
+  border-radius: 5px;
+  background-color: transparent;
+  border: 1px solid #ccd0d5;
+  position: relative;
+}
+
+.cel-placeholder input, .pass-placeholder input {
+  width: 377px;
+  font-size: 18px;
+  padding: 8px 10px;
+  margin: 0;
+  border-radius: 5px;
+  background-color: transparent;
+  border: 1px solid #ccd0d5;
+  position: relative;
+}
+
+
+.birthday {
+  position: relative;
+  height: 58px;
+}
+
+.birthday-title {
+  color: #90949c;
+  font-size: 16px;
+  font-weight: bold;
+  margin: 10px 0 5px;
+}
+
+.birth-selectores {
+  height: 30.75px;
+  width: 100%;
+  position: relative;
+}
+
+.selectores {
+  width: 180px;
+  height: 30px;
+}
+
+.selectores select {
+  font-size: 13px;
+  padding: 5px;
+  height: 30px;
+  vertical-align: top;
+  background-color: #fff;
+  color: #1c1e21;
+  border: 1px solid #ccd0d5;
+}
+
+.sexo {
+  height: 58px;
+}
+
+.sexo-title {
+  color: #90949c;
+  font-size: 16px;
+  font-weight: bold;
+  margin: 10px 0 5px;
+}
+
+.checkpoints {
+  height: 32px;
+  width: 341.3px;
+  display: inline-block;
+  margin: 0;
+}
+
+.checkpoints span {
+  border-radius: 4px;
+  border-width: 1px;
+  display: inline-block;
+  padding: 5px 0 5px 4px;
+  height: inherit;
+}
+
+.checkpoints input {
+  background-color: #fff;
+  color: #1c1e21;
+  font-size: 12px;
+  margin: 0;
+}
+
+.checkpoints label {
+  color: #1d2129;
+  font-size: 18px;
+  line-height: 18px;
+  padding: 0 10px 0 3px;
+  font-weight: normal;
+  vertical-align: middle;
+}
+
+.mujer {
+  margin-right: 4px;
+}
+
+.condiciones-container {
+  height: 44.2px;
+  width: 399px;
+}
+
+.condiciones {
+  width: 316px;
+  height: inherit;
+  color: #777;
+  font-size: 11px;
+  margin: 1em 0;
+}
+
+.condiciones a {
+  text-decoration: none;
+  color: #385898;
+  cursor: pointer;
+}
+
+.condiciones a:hover {
+  text-decoration: underline;
+}
+
+.registrarse-button-container {
+  width: 400px;
+  height: 60px;
+}
+
+.registrarse-button {
+  font-size: 19px;
+  font-family: 'Freight Sans', Helvetica, Arial, sans-serif !important;
+  font-weight: 700 !important;
+  letter-spacing: normal;
+  text-rendering: optimizeLegibility;
+  line-height: 126%;
+  min-width: 194px;
+  padding: 7px 20px;
+  text-align: center;
+  box-shadow: inset 0 1px 1px #a4e388;
+  border: 1px solid;
+  border-color: #3b6e22 #3b6e22 #2c5115;
+  border-radius: 5px;
+  background: #69a74e;
+  color: #fff;
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  text-shadow: 0 1px 2px rgba(0,0,0,.5);
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+.registrarse-button:hover {
+  background: linear-gradient(#67ae55, #578843);
+}
+
+.create-pagina {
+  border-top: 1px solid #dddfe2;
+  color: #666;
+  font-size: 13px;
+  font-weight: bold;
+  margin-top: 20px;
+  padding-top: 15px;
+}
+
+.create-pagina a {
+  color: #385898;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.create-pagina a:hover {
+  text-decoration: underline;
+}
+
+.footer-container {
+  color: #737373;
+  height: 137.35px;
+}
+
+.idiomas {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  padding-top: 8px;
+  /* height: 28px; */
+}
+
+.idiomas li:nth-child(1) {
+  padding-left: 0;
+}
+
+.idiomas li {
+  padding-left: 10px;
+  border-width: 0 0 0 1px;
+}
+
+.idiomas li a {
+  text-decoration: none;
+  color: #385898;
+  cursor: pointer;
+  white-space: nowrap;
+}
+
+.line {
+  border-bottom: 1px solid #dddfe2;
+  font-size: 1px;
+  height: 8px;
+  margin-bottom: 8px;
+}
+
+.enlaces-container {
+  width: 1000px;
+  margin: 0 auto;
+}
+
+.enlaces {
+  height: 57.6px;
+  line-height: 1.6;
+  list-style-type: none;
+  margin-left: -7px;
+  padding: 0;
+}
+
+.enlaces li:first-child {
+  border-width: 0;
+}
+
+.enlaces li {
+  margin: 0;
+  padding-left: 17px;
+  padding-right: 0;
+  vertical-align: top;
+  display: inline-block;
+  line-height: 1.6;
+  border-width: 0 0 0 1px;
+}
+
+.enlaces li a {
+  text-decoration: none;
+  white-space: nowrap;
+  color: #385898;
+}
+
+.enlaces li a:last-child {
+  margin-right: 0;
+}
+
+.enlaces li a:hover {
+  text-decoration: underline;
+}
+
+.copyright-container {
+  font-size: 11px;
+  margin: 20px 0;
+}
+
+
