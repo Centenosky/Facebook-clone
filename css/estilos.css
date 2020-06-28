@@ -485,6 +485,7 @@ main {
   list-style-type: none;
   margin-left: -7px;
   padding: 0;
+  width: 980px;
 }
 
 .enlaces li:first-child {
