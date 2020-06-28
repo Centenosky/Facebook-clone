@@ -463,6 +463,10 @@ main {
   white-space: nowrap;
 }
 
+.idiomas li a:hover {
+  text-decoration: underline;
+}
+
 .line {
   border-bottom: 1px solid #dddfe2;
   font-size: 1px;
